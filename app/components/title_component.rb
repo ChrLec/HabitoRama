@@ -48,7 +48,6 @@ class TitleComponent < ViewComponent::Base
   }.freeze
 
   def initialize(style:, color: :black)
-    p "coucou"
     @style = style
     @color = color
   end
